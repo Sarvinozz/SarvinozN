@@ -1,0 +1,353 @@
+<!DOCTYPE HTML>
+<!--
+	TODO 
+
+	Edit dashbar 
+	Add lets connect button 
+
+-->
+<html>
+	<head>
+		<title>Instagram Project </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Sarvinoz Nabiyeva</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Projects</a>
+								<ul>
+									<li><a href="left-sidebar.html">Korean Drama Analysis</a></li>
+									<li><a href="right-sidebar.html">Spotting Fakes on Instagram</a></li>
+									<li><a href="index.html#four">Other Projects</a></li>
+
+									
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="button primary">Let's Connect!</a>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/sarvinoz-nabiyeva-0803601ba/"  target="_blank">LinkedIn</span></a></li>
+									<li><a href="mailto:sarvinozdnabiyeva@gmail.com">Sarvinozdnabiyeva@gmail.com</a></li>
+								</ul>
+							
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Staying safe from Instagram Scammers and Spamers </h2>
+							<p> Follow these tips to stay safe! (If you want to go straight to the data and regression <a href="right-sidebar.html#data">click here</a>). </p>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+
+								<!-- Content -->
+								<section id="content">
+									<h2>Key Findings: <b>Exercise caution when interacting with accounts with the following characteristics.</b></h2>
+									<ul><h3>
+										<li><b>If the account has less than 3 followers  </b></li>
+										<li><b>The account has made fewer than 2 posts </b></li>
+										<li><b>If the user lacks a bio or possesses an extensive one </b></li>
+									</h3>
+									<p>Note: The term <b>"Fake"</b> is used to categorize accounts that could be scammers or spammers.</p>
+									<p>Note: The tips provided is derived from our dataset.
+
+
+
+
+									</p>
+
+
+
+									</ul>
+									<p><span class="image left"><img src="images/Insta.fake1.png" alt="" /></span>
+										
+										<h3> If a user has less than 3 followers, there is a 79% chance the account is fake. </h2>
+									
+									</p>
+									<p>Account 1: Shows what an account that a users would want to avoid. Low follower count   </p>
+									
+
+						<br>
+									<p><b>Althougth at the moment accepting a follow request or interacting with this type of account seems harmless. According to the FTC social media scams "The top platforms identified in these reports were Instagram (36%), 
+										Facebook (28%), WhatsApp (9%), and Telegram (7%)." Meaning that 36% of all social media scams were from Instagram users.</b></p>
+
+									
+			
+
+<!-- 
+	Number of Posts 
+	engage with accounts that have 2 or more posts
+
+-->
+										<p>___________________________________________________________________________________________________________</p>
+										<p><span class="image left"><img src="images/Insta.2posts.png" alt="" /></span>
+											<h3> There's a 93% probability of an account being fake if it has 0 to 2 posts. </h2>
+												Account 2: Shows what an account that a users would want to avoid or limit interactions.
+										</p>
+						<br>
+						<br>
+
+										<p><b> Engage with accounts that have at least 2 posts. There's a 93% probability of an account being fake if it has 0 to 2 posts. 
+											Conversely, Instagram accounts with 2 or more posts reduce the likelihood of the account being spam or a scam account by 15%.
+										</b></p>
+
+													
+
+						<!--
+							The lenght of the Insta bio 
+
+						-->
+						<p>___________________________________________________________________________________________________________</p>
+
+						<p><h3> There's a 63% likelihood that an account is fraudulent if it lacks a profile biography.</h2></p>
+							<p>Below are examples of accounts: one without a bio and another with an extensive bio.</p>
+
+						<p><span class="image left"><img src="images/Insta.nobio3.png" alt="" /></span> </p>
+						<p><span class="image left"><img src="images/Insta.Biolong.png" alt="" /></span> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<p><b>In the realm of Instagram bios, users without a bio or those with an extensive bio containing 150+ characters may raise suspicions regarding potential scammer activity.
+
+						</b></p>
+
+						<p><span class="image left"><img src="images/Insta.biolength.png" alt="" /></span>
+								<b>This plot shows the probability of an account being fake is 63% in the absence of a bio,and 66% when the bio exceeds 150 characters.</b>
+
+
+
+
+							</p>
+						<br>
+
+
+								</section>
+								<p>___________________________________________________________________________________________________________</p>
+
+							<!--
+								Regression and Data 
+								Random Forest 
+
+							-->
+							<section id="data">
+								<header class="major">
+										<h2> Regression & Data </h2>
+										<h4>Using Random Forest a supervised machine learning algorithm
+
+								   </h4>
+									</header>
+
+									<p><span class="image left"><img src="images/Insta.Fruitbasket.jpeg" alt="" /></span>
+										 <b>A random forest regression explained: </b> Imagine you have a basket of various fruits (features) like: apples,oranges,pineapples and peaches
+											each with different weights and sizes. Random Forest Regression is like asking a group of diverse fruit experts (decision trees) to collectively estimate the average weight of a piece of fruit based on its size, 
+											combining their expertise to give you a more accurate and reliable result. <b>Our model's predictions have an accuracy of 93%.</b>
+										
+									
+									</p>
+									<br>
+
+								<div>
+
+								<!--
+
+
+								-->
+									<header class="major">
+										<h2> Shiny Output </h2>
+										<h4>Creating an app we are able to select any account in our data and examine what factor the account to be labled fake. 
+
+								   </h4>
+									</header>
+									<p><h3>Break Down of an Instagram account with (really) high chance of being FAKE</h3>
+										The likelihood of this account being fake is 99.2%. A user might want to think twice before interacting with this account. 										
+										<b>Note:</b> Log models are used of X.followers of 0 is actually 1 follower.
+
+
+									</p>					
+
+									<div class="image fit"><span><img src="images/Insta.FakeShiny.png" alt="" /></span></div>
+									<p>___________________________________________________________________________________________________________</p>
+
+										<p>
+											<b>Reading the Break Down:</b>  Starting from the top intercept of 49.8% which is our overall fake rate in our dataset.
+												The plot shows a break down of each variable with the green bars and red bars. For example the number of posts or
+												 if the account is private. 
+											<ul>
+												<li><b>Green Bars: increase in chances of being fake</b></li>
+												<li><b>Red Bars: decrease in chances of being fake</b></li>
+											</ul>
+										 </p>
+										
+									<p>___________________________________________________________________________________________________________</p>
+									<p><h3>Break Down of an Instagram account with low chance of being FAKE</h3>
+										The likelihood of this account being fake is 0.06%. A user should always be cautions of random accounts, but with account is safe to interact with. 
+										<b>Note:</b> Log models are used of X.followers of 3.029 is actually 1016 followers. 
+										<br>
+										</p>
+										<div class="image fit"><span><img src="images/Insta.RealShiny.png" alt="" /></span></div>
+
+								<div>
+										
+									</div>
+
+									<br>
+									<br>
+									<br>
+
+								
+						<h3>Data Dictionary</h3>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Name</th>
+												<th>Description</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>X.Followers</td>
+												<td>Number of followers a user has</td>
+												<td> Numerical</td>
+
+											</tr>
+											<tr>
+												<td>X.Posts</td>
+												<td>Number of post a user has</td>
+												<td>Numerical</td>
+
+											</tr>
+											<tr>
+												<td>Nums.length.username</td>
+												<td> Ratio of numerical characters in username to its length</td>
+												<td>Numerical</td>
+
+											</tr>
+											<tr>
+												<td>Profile.Pic</td>
+												<td>User has profile picture or not	</td>
+												<td> Catagorical (Yes,No)</td>
+											</tr>
+											<tr>
+												<td>X.Follows</td>
+												<td>Number of accounts a user Follows </td>
+												<td>Numerical</td>
+											</tr>
+											<tr>
+												<td>Private</td>
+												<td>Account is Private or not</td>
+												<td>Catagorical (Yes,No)</td>
+
+											</tr>
+											<tr>
+												<td>Nums.Length.Fullname</td>
+												<td>Ratio of numerical characters in full name to its length</td>
+												<td>Numerical</td>
+
+											</tr>
+											<tr>
+												<td>external.URL</td>
+												<td>Has external URL</td>
+												<td>Catagorical (Yes,No)</td>
+
+											</tr>
+											<tr>
+												<td>NameIsUsername</td>
+												<td> Username and full name are identical</td>
+												<td>Catagorical (Yes,No)</td>
+
+											</tr>
+											<tr>
+												<td>Description Length</td>
+												<td>Number of characters in Bio</td>
+												<td>Numerical</td>
+
+											</tr>
+											
+										</tbody>
+										
+									</table>
+								</div>
+							</section>
+
+							<br>	
+
+						</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+								<section>
+									<a href="#" class="image fit"><img src="images/Instacaution.png" alt="" /></a>
+									<h3>Tips and Guides from Instagram </h3>
+									<p>Instagram is aware of how often people fall victim to these scammers. Here are some additional help to avoid getting 
+										scammed.</p>
+									<footer>
+										<ul class="actions">
+											<li><a href="https://help.instagram.com/514187739359208"
+													class="button" target="_blank">Instagram Help Center</a></li>
+										</ul>
+									</footer>
+								</section>
+
+
+									<section id="sidebar">
+										<section>
+											<a href="#" class="image fit"><img src="images/Insta.cover.png" alt="" /></a>
+											<h3>Spotting Fakes</h3>
+											<p> Here is my slide deck used to present</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="pdf_files/Instagram.Fakes.pdf"
+														class="button" target="_blank">Project PDF</a></li>												</ul>
+											</footer>
+										</section>
+										<hr />
+										
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+				
+					<ul class="copyright">
+						</li><li>Design: <a href="#">@Sarvi_n</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
